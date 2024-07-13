@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'New';
     margin: 0;
 }
 .back{
@@ -15,9 +15,10 @@ body{
     border-radius: 2vw;
     cursor: pointer;
     user-select: none;
+    font-weight: bolder;
 }
 .layout{
-    padding: 3vw 0 3vw 0;
+    padding: 3vw 0;
     width: fit-content;
     max-width: 90%;
     display: flex;
@@ -42,4 +43,8 @@ img{
 }
 img:hover{
     height: 105%;
+}
+@font-face {
+    font-family: 'New';
+    src: url(/updated-website/Inconsolata-VariableFont_wdth\,wght.ttf);
 }

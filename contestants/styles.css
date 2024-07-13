@@ -1,0 +1,55 @@
+body{
+    color: black;
+    background: linear-gradient(135deg, #00001a, #0d0d0d);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'New';
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    margin-bottom: 3vw;
+}
+.button{
+    font-weight: bolder;
+    padding: 15px;
+    margin-top: 3vw;
+    background-color: white;
+    border-radius: 2vw;
+    cursor: pointer;
+    user-select: none;
+}
+.body{
+    background-color: transparent;
+    width: 70%;
+    max-width: 70%;
+    height: fit-content;
+    border-radius: 5vw;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
+.text{
+    font-size: 20px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    padding: 3vw 6vw;
+}
+a{
+    width: 100%;
+}
+span{
+    float: right;
+}
+@font-face {
+    font-family: 'New';
+    src: url(/updated-website/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
