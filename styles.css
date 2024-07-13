@@ -2,10 +2,19 @@ body{
     color: black;
     background: linear-gradient(135deg, #00001a, #0d0d0d);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
+}
+.back{
+    padding: 15px;
+    margin-top: 3vw;
+    background-color: white;
+    border-radius: 2vw;
+    cursor: pointer;
+    user-select: none;
 }
 .layout{
     padding: 3vw 0 3vw 0;
