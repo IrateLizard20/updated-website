@@ -31,7 +31,7 @@ body{
     width: 19vw;
     height: 19vw;
     border-radius: 2vw;
-    background-color: black;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -43,6 +43,7 @@ img{
 }
 img:hover{
     height: 105%;
+    width: auto;
 }
 @font-face {
     font-family: 'New';

@@ -53,3 +53,32 @@ span{
     font-family: 'New';
     src: url(/updated-website/Inconsolata-VariableFont_wdth\,wght.ttf);
 }
+
+.layout{
+    padding: 3vw 0;
+    width: fit-content;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 19vw;
+    height: 19vw;
+    border-radius: 2vw;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card>img{
+    height: 100%;
+}
+.card>img:hover{
+    height: 105%;
+    width: auto;
+}
